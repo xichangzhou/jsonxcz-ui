@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --public-url https://xichangzhou.github.io/jsonxcz-ui"
   },
   "dependencies": {
     "react-app-polyfill": "^1.0.0"
@@ -18,7 +18,9 @@
   "devDependencies": {
     "@types/react": "^16.9.11",
     "@types/react-dom": "^16.8.4",
+    "@types/styled-components": "^5.1.2",
     "parcel": "^1.12.3",
+    "styled-components": "^5.1.1",
     "typescript": "^3.4.5"
   }
 }
